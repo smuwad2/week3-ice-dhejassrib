@@ -13,19 +13,23 @@
     <div class="container mt-5">
         <form>
             <div class="row g-3">
-                <div class="mb-3 col-4">
+                <!-- <div class="mb-3 col-4"> -->
+                <div class="col-12 col-md-6 col-lg-4">
+                <!-- Small screens (<768px): col-12 → each takes full width, stacked vertically.
+                Medium+ screens (≥768px): col-md-6 → each takes half width, side by side. -->
                     <label for="fullName" class="form-label">Full Name</label>
                     <input type="text" class="form-control" id="fullName">
                 </div>
 
                 <!-- Email -->
-                <div class="mb-3 col-4">
+                <!-- <div class="mb-3 col-4"> -->
+                <div class="col-12 col-md-6 col-lg-4">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email">
                 </div>
 
                 <!-- Gender -->
-                <div class="mb-3 col-4">
+                <div class="mb-3 col-12 col-md-6 col-lg-4">
                     <label class="form-label d-block">Gender</label>
                     <div class="form-check d-inline-block me-3">
                         <input type="radio" class="form-check-input" name="gender" id="male" value="male">
@@ -38,7 +42,7 @@
                 </div>
 
                 <!-- Country -->
-                <div class="mb-3 col-4">
+                <div class="mb-3 col-sm-12 col-md-6 col-lg-4">
                     <label for="country" class="form-label">Country</label>
                     <select class="form-select" id="country" class="form-select">
                         <option selected>Select your country</option>
